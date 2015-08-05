@@ -1,0 +1,45 @@
+{
+  "name": "suboptimal-research-tool",
+  "version": "1.0.0",
+  "description": "Research topics automatically",
+  "keywords": [
+    "research",
+    "tool",
+    "search",
+    "google",
+    "autocomplete",
+    "auto",
+    "complete",
+    "suggestions",
+    "suggestion",
+    "suggest",
+    "terms",
+    "subject",
+    "topic",
+    "fun",
+    "funny",
+    "silly",
+    "joke",
+    "suboptimal",
+    "lame",
+    "bad",
+    "terrible",
+    "english",
+    "grammar",
+    "words"
+  ],
+  "dependencies": {
+    "array-unique": "^0.2.1",
+    "coffee-script": "^1.9.3",
+    "google-autocomplete": "0.0.1",
+    "pluralize": "^1.1.2",
+    "pos": "^0.2.3",
+    "tensify": "0.0.2"
+  },
+  "scripts": {
+    "start": "coffee cli.coffee cats"
+  },
+  "bin": {
+    "research": "cli.js"
+  }
+}

@@ -1,8 +1,7 @@
 
 # Suboptimal Research Tool <sup style="opacity:0.1">&copy;</sup>
 
-"Research" topics automatically — <img alt="powered by Google" src="https://maps.gstatic.com/mapfiles/api-3/images/powered-by-google-on-white2.png" align="
-center">'s autocomplete.
+"Research" topics automatically — <img alt="powered by Google" src="https://maps.gstatic.com/mapfiles/api-3/images/powered-by-google-on-white2.png" align="center">'s autocomplete.
 
 (This is the *wrong way* to use Google for research, FYI.)
 

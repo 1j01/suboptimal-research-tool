@@ -46,6 +46,7 @@ research = (subject, callback)->
 	# console.log "Hey look, a #{subject_singular}!"
 	# return
 	
+	# TODO: avoid "have", e.g. Why do sandstorms... have?
 	find_out "Why are #{subject_plural}", avoid: /NN|VBN|IN/, capture: /JJ/,
 		(err, subject_adjectives)->
 			return callback err if err

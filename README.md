@@ -1,12 +1,15 @@
 
 # Suboptimal Research Tool <sup style="opacity:0.1">&copy;</sup>
 
-"Research" topics automatically — ![powered by Google](https://maps.gstatic.com/mapfiles/api-3/images/powered-by-google-on-white2.png)'s autocomplete.
+"Research" topics automatically — <img alt="powered by Google" src="https://maps.gstatic.com/mapfiles/api-3/images/powered-by-google-on-white2.png" align="
+center">'s autocomplete.
+
+(This is the *wrong way* to use Google for research, FYI.)
 
 ### Installation
-`npm i -g suboptimal-research-tool`
+`npm i suboptimal-research-tool -g`
 
-### Usage
+### CLI Usage
 
 `research cats` (pluralization shouldn't matter)
 
@@ -57,7 +60,7 @@ A sleepy cat panted.
 A weird cat meowed.
 ```
 
-### Module
+### Module Usage
 
 If you have some use for this, here it is!
 
@@ -78,9 +81,9 @@ research("bats", function(err, subject){
 
 ### About
 
-This module asks Google's [autocomplete](https://www.youtube.com/watch?v=blB_X38YSxQ) team what people search for in relation to a given subject.
-Specifially, it finds what people have asked in the form of `Why are <SUBJECTs> <adjectives>?` and `Why do <SUBJECTs> <verb phrases>?`.
+This module asks [Google's autocomplete team](https://www.youtube.com/watch?v=blB_X38YSxQ) what people search for in relation to a given subject.
+Specifially, it finds what people have asked in the form of `Why are <SUBJECTs>...?` (hoping for adjectives) and `Why do <SUBJECTs>...?` (hoping for verb phrases).
 
 Because of the way the results are procured, they are prone to include misconceptions, stereotypes and opinions.
 
-For instance, people search for "why are zebras extinct", so this module thinks zebras are extinct.
+For instance, people search for "why are zebras extinct", so this module blindly assumes zebras are extinct.

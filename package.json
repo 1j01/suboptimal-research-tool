@@ -1,6 +1,6 @@
 {
   "name": "suboptimal-research-tool",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Research topics automatically",
   "keywords": [
     "research",
@@ -37,8 +37,10 @@
     "tensify": "0.0.2"
   },
   "scripts": {
-    "start": "coffee cli.coffee cats"
+    "start": "coffee cli.coffee cats",
+    "prepublish": "coffee -co lib ."
   },
+  "main": "lib/research.js",
   "bin": {
     "research": "cli.js"
   }
